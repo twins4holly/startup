@@ -23,6 +23,17 @@ Notes mostly based off CS 260 stuff
 - Configuration file: ~/Caddyfile contains the definitions for routing HTTP requests that Caddy receives. Do not manually edit except domain name
 - HTML files: ~/public_html directory of files for when request made
 
+### HTTPS
+- make it secure by editing caddy file
+- in console do this:
+  - ssh -i [key pair file] ubuntu@[yourdomainnamehere]
+  - cd ~
+  - vi Caddyfile
+  - in the file, edit it so :80 (port 80 for to process as http) is replaced with domain and subdomains also have your domain
+  - save and exit vi with :wq
+  - restart caddy so changes can take effect with sudo service caddy restart
+- Let's Encrypt does the work of sending the web certificate proving it's the requester. User, https request, web server do web cert request, (verification) Let's Encrypt issue web certificate
+
 
 ## HTML
 - head isn't supposed to be seen
