@@ -24,3 +24,11 @@ Notes mostly based off CS 260 stuff
 - HTML files: ~/public_html directory of files for when request made
 
 
+## HTML
+- head isn't supposed to be seen
+### tags
+- menu is alternative to ul that represents interaction
+- nav is navigation element
+### paragraph formatting tags
+- <hr /> adds horizontal line across page to break up sectons
+- br is line break
