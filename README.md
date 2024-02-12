@@ -14,15 +14,16 @@ Have you ever borrowed a book from your friend and forgot that you had it? Or ma
 - add or remove books from shelf
 - bookshelf saved with each login
 - can see in realtime when all other users add or remove a book from their shelf
+- leaderboard for books finished
 
 ### Technologies
-- HTML: 
+- HTML: I'll have pages for login, number of finished books, and seeing your books.
 - CSS: Make the web page look good on screens that are different sizes.
-- JavaScript: 
-- Service: 
-- Database/Login: People can make an account and login to their own bookshelf. 
-- WebSocket: Connects users to show the message that says someone added or removed a book from their library.
-- React: 
+- JavaScript: Login and add/remove book buttons actually do stuff.
+- Service: will incorporate something fun to website that updates daily.
+- Database/Login: People can make an account and securely login to their own bookshelf. Login info, book totals, and top readers are saved.
+- WebSocket: Connects users to show the messages saying someone added or removed a book from their library.
+- React: Application ported to use React web framework.
 
 ### Design
 
