@@ -41,5 +41,40 @@ Notes mostly based off CS 260 stuff
 - menu is alternative to ul that represents interaction
 - nav is navigation element
 ### paragraph formatting tags
-- <hr /> adds horizontal line across page to break up sectons
+- hr in < /> adds horizontal line across page to break up sectons
 - br is line break
+
+## CSS
+
+## JavaScript
+- let is an object type you should use
+- const is object type you can't reasssign location, but can if its array add to it for example
+- falsy (false, 0, -0, '', NaN, null, undefined)
+- truthy = !falsy
+- when comparing two objects, compares memory locations not values in objects
+- for(let i = 1; i<3; i++)
+- while(bool statement), can get out of loop using break;
+- switch statement, need break statement inside so it doesn't run all
+  - kinda like if statements 
+  - default happens if none of the other cases fit
+  - example
+    - switch(expression) {
+        case x:
+          // code block
+          break;
+        case y:
+          // code block
+          break;
+        default:
+          // code block
+      }
+    - switch expression evaluated once, value of expression is compared with the values of each case, if match associated code block is executed, if no match default code block executed
+- anonymous function f = function (i) {return i;}, can later call f 
+- arrowFunctions (like lambda)
+  - single line with implicit return, inherits this binding
+  - const arrow = () => 1;
+  - const arrowWith BLock = (a) => {return a;}; must have return statement with {}
+  - arrow functions are always anonymous
+- closure function
+  - uses stuff passed in in previous function call
+  - remembers when function was created and enviornment it was created it
