@@ -1,6 +1,6 @@
 # startup: H Bookshelf
 Startup application for BYU CS 260
-
+<hr/>
 
 ## Specification Deliverable
 
@@ -27,9 +27,9 @@ Have you ever borrowed a book from your friend and forgot that you had it? Or ma
 
 ### Design
 This is what the login and shelf pages will look like.
-<a href="login_sketch.jpg">
+![](login_sketch.jpg)
 ![](shelf_sketch.jpg)
 
-
+<hr/>
 
 ## HTML
