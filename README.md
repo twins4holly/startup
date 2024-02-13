@@ -26,6 +26,9 @@ Have you ever borrowed a book from your friend and forgot that you had it? Or ma
 - React: Application ported to use React web framework.
 
 ### Design
+This is what the login and shelf pages will look like.
+(login_sketch.jpg)
+(shelf_sketch.jpg)
 
 
 
