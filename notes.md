@@ -47,6 +47,7 @@ Notes mostly based off CS 260 stuff
 ## CSS
 
 ## JavaScript
+- console.log('this will get printed to console')
 - let is an object type you should use
 - const is object type you can't reasssign location, but can if its array add to it for example
 - falsy (false, 0, -0, '', NaN, null, undefined)
@@ -78,3 +79,38 @@ Notes mostly based off CS 260 stuff
 - closure function
   - uses stuff passed in in previous function call
   - remembers when function was created and enviornment it was created it
+- strings
+  - string literal syntax or string object
+  - lots of operators: upper & lower case (toUpperCase(), toLowerCase()), split (split splits at parameter and makes list), endsWith (bool says if it ends with parameter), replace (par1 replaced with par2), slice (return par1 start to par2 end)
+  - String('words')
+  - RegExp('cat.?','i'), text.match(literalRegex), regex with flags /(dog)|(cat)|(bird)/gim, text.match, text.replace, var.test(text)
+  - 'words'
+- Array
+  - arr = []
+  - arr[1] gives element 1
+  - arr.slice(2,5) pulls out part of arr
+  - arr.length returns length
+  - for(let entry of numbers) {loop over each element}
+- Array Operations: doesn't change origial, just returns things
+  - arr.map((n) => n * 100) map from some array to another with performing a function (every value*100 in newly returned array)
+  - arr.reduce((a,c) => a+c) reduce contents of array to a single value, c is current value, a is accumulation value, 
+    - starts with a as arr[0] and c as arr[1]
+    - third parameter lets you specify what you want it to start with
+  - arr.forEach((n) => n%2) does parameter function on each value in arr?
+  - arr.filter((n)=>n%2)
+  - arr.some((n)=>n%5)
+- Exceptions
+  - try block, do operations inside
+  - catch(error){console.log('error: '+error)}, happens if try block throws any errors
+  - finally, executes at end no matter what happens (try or catch)
+- special operators
+  - nullish is null of undefined, null is coalescing operator
+    - z ?? (z=x); if z is nullish, set z=x
+    - y ??=30, if y is nullish, set it to 30
+- objects
+  - let obj = {animal: 'fish',}
+    - obj.count = 3, assigns count:3 to object
+    - obj.location(cities: ['utah,'new york'], origin:'ocean')
+  - can iterate over all properties for(const property in obj)
+  - get object values, Object.keys(obj)
+- spread
