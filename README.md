@@ -40,4 +40,4 @@ I made the structure of my application using HTML.
 - 3rd party placeholder - Image on myshelf.html page will have art from Art Institute of Chicago
 - Images - An image of a book is on the about HTML page.
 - DB/Login- Login represented by input box and submit button. The leaderboard and your saved books represent data pulled from the database.
-- WebSocket - The statements that display when someone starts or finished a book are realtime.
+- WebSocket - The statements that display when someone starts or finishes a book are realtime.
