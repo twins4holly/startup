@@ -20,7 +20,7 @@ Have you ever borrowed a book from your friend and forgot that you had it? Or ma
 - HTML: I'll have pages for login, number of finished books, and seeing your books.
 - CSS: Make the web page look good on screens that are different sizes.
 - JavaScript: Login and add/remove book buttons actually do stuff.
-- Service: will incorporate something fun to website that updates daily.
+- Service: will incorporate something fun to website that makes it look more fun.
 - Database/Login: People can make an account and securely login to their own bookshelf. Login info, book totals, and top readers are saved.
 - WebSocket: Connects users to show the messages saying someone added or removed a book from their library.
 - React: Application ported to use React web framework.
@@ -33,3 +33,11 @@ This is what the login and shelf pages will look like.
 <hr/>
 
 ## HTML
+I made the structure of my application using HTML.
+- HTML pages - I have 4 HTML pages representing login, your bookshelf, leaderboard, and about. 
+- Links - The login page automatically links to the page with your shelf. Links at the top of the page allow you to choose which page to view.
+- Text - My about page explains the purpose of the application.
+- 3rd party placeholder - Image on myshelf.html page will have art from Art Institute of Chicago
+- Images - An image of a book is on the about HTML page.
+- DB/Login- Login represented by input box and submit button. The leaderboard and your saved books represent data pulled from the database.
+- WebSocket - The statements that display when someone starts or finished a book are realtime.
