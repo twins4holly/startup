@@ -114,3 +114,27 @@ Notes mostly based off CS 260 stuff
   - can iterate over all properties for(const property in obj)
   - get object values, Object.keys(obj)
 - spread
+
+
+
+
+## 2/26
+### domain names, servers, and services
+- application - https - functionality like web browsing
+- transport- tcp/udp - moving connection information packets, tcp is ordered, udp is unordered
+- internet - ip - establishing connections
+- link - fiber, hardware - physical connections
+
+- server vs service, server is the box, service is the actual things that does stuff and is accessed through the server
+- domain name: [subdomain.]*secondary.top, whole is domain name, root is secondary.top, top is tld (top level domain?)
+- DNS record types
+  - A/AAAA - address. spcific IP addresses. IPV4 and IPV6
+  - cname - canonical name. alias
+  - ns - name server. authority for queries and proof of ownership
+  - text - metadata. used for policies and verification
+  - soa - start of authroity. propogation information
+#### fetch
+- fetch(url)
+  - .then(r => t.text())
+  - .then(text => console.log(text))
+- 
