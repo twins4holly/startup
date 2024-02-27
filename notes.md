@@ -137,7 +137,24 @@ Notes mostly based off CS 260 stuff
 - fetch(url)
   - .then(r => t.text())
   - .then(text => console.log(text))
+### promises, catch if reject instead of resolve
+const coinToss = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    if (Math.random() > 0.1) {
+      resolve(Math.random() > 0.5 ? 'heads' : 'tails');
+    } else {
+      reject('fell off table');
+    }
+  }, 10000);
+});
+coinToss
+  .then((result) => console.log(`Coin toss result: ${result}`))
+  .catch((err) => console.log(`Error: ${err}`))
+  .finally(() => console.log('Toss completed'));
 
+// OUTPUT:
+//    Coin toss result: tails
+//    Toss completed
 
 
 
