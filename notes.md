@@ -155,7 +155,7 @@ coinToss
 // OUTPUT:
 //    Coin toss result: tails
 //    Toss completed
-
+## JSON
 ### JSON types and examples
 Type	Example
 string	"crockford"
@@ -165,6 +165,19 @@ array	[null,42,"crockford"]
 object	{"a":1,"b":"crockford"}
 null	null
 
+### Convert JSON and JS
+You can convert JSON to, and from, JavaScript using the JSON.parse and JSON.stringify functions. JS example below
+
+const obj = { a: 2, b: 'crockford', c: undefined };
+const json = JSON.stringify(obj);
+const objFromJson = JSON.parse(json);
+
+console.log(obj, json, objFromJson);
+
+// OUTPUT:
+// {a: 2, b: 'crockford', c: undefined}
+// {"a":2, "b":"crockford"}
+// {a: 2, b: 'crockford'}
 
 
 
