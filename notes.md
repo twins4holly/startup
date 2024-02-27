@@ -156,7 +156,14 @@ coinToss
 //    Coin toss result: tails
 //    Toss completed
 
-
+### JSON types and examples
+Type	Example
+string	"crockford"
+number	42
+boolean	true
+array	[null,42,"crockford"]
+object	{"a":1,"b":"crockford"}
+null	null
 
 
 
