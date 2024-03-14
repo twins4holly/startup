@@ -46,36 +46,39 @@
     </header>
 
     <main>
-      <table>
+      <div class="table-responsive-sm">
+        <!--table-responsive is for if it's on a small screen and can't display all the data, so maybe for a phone? not needed on laptop-->
+      <table class="table align-middle">
         <thead>
           <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Books Finished</th>
-            <th>Date</th>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Books Finished</th>
+            <th scope="col">Date</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
+            <td scope="row">1</td>
             <td>Hermione Granger</td>
             <td>9201</td>
             <td>May 20, 2021</td>
           </tr>
           <tr>
-            <td>2</td>
+            <td scope="row">2</td>
             <td>Elizabeth Bennet who improves her mind with reading</td>
             <td>265</td>
             <td>June 2, 2021</td>
           </tr>
           <tr>
-            <td>3</td>
+            <td scope="row">3</td>
             <td>Winnie the Pooh</td>
             <td>1</td>
             <td>July 3, 2020</td>
           </tr>
         </tbody>
       </table>
+    </div>
     </main>
 
     <footer>
